@@ -1,111 +1,6 @@
-.container {
-  --display-large-font-family-name: var(--font-poiret);
-  --display-large-font-family-style: Regular;
-  --display-large-font-weight: 400px;
-  --display-large-font-size: 2.5rem;
-  --display-large-line-height: 64px;
-  --display-large-letter-spacing: -0.25px;
-  /* display - medium */
-  --display-medium-font-family-name: var(--font-poiret);
-  --display-medium-font-family-style: Regular;
-  --display-medium-font-weight: 400px;
-  --display-medium-font-size: 1.6rem;
-  --display-medium-line-height: 52px;
-  --display-medium-letter-spacing: 0px;
-  /* display - small */
-  --display-small-font-family-name: var(--font-poiret);
-  --display-small-font-family-style: Regular;
-  --display-small-font-weight: 400px;
-  --display-small-font-size: 1.5rem;
-  --display-small-line-height: 44px;
-  --display-small-letter-spacing: 0px;
-  /* headline - large */
-  --headline-large-font-family-name: Raleway;
-  --headline-large-font-family-style: Regular;
-  --headline-large-font-weight: 400px;
-  --headline-large-font-size: 1.2rem;
-  --headline-large-line-height: 40px;
-  --headline-large-letter-spacing: 0px;
-  /* headline - medium */
-  --headline-medium-font-family-name: Raleway;
-  --headline-medium-font-family-style: Regular;
-  --headline-medium-font-weight: 400px;
-  --headline-medium-font-size: 1rem;
-  --headline-medium-line-height: 36px;
-  --headline-medium-letter-spacing: 0px;
-  /* headline - small */
-  --headline-small-font-family-name: Raleway;
-  --headline-small-font-family-style: Regular;
-  --headline-small-font-weight: 400px;
-  --headline-small-font-size: 0.8rem;
-  --headline-small-line-height: 32px;
-  --headline-small-letter-spacing: 0px;
-  /* body - large */
-  --body-large-font-family-name: var(--inter);
-  --body-large-font-family-style: Regular;
-  --body-large-font-weight: 400px;
-  --body-large-font-size: 1rem;
-  --body-large-line-height: 24px;
-  --body-large-letter-spacing: 0.5px;
-  /* body - medium */
-  --body-medium-font-family-name: var(--inter);
-  --body-medium-font-family-style: Regular;
-  --body-medium-font-weight: 400px;
-  --body-medium-font-size: 0.9rem;
-  --body-medium-line-height: 20px;
-  --body-medium-letter-spacing: 0.25px;
-  /* body - small */
-  --body-small-font-family-name: var(--inter);
-  --body-small-font-family-style: Regular;
-  --body-small-font-weight: 400px;
-  --body-small-font-size: 0.8rem;
-  --body-small-line-height: 16px;
-  --body-small-letter-spacing: 0.4px;
-  /* label - large */
-  --label-large-font-family-name: var(--josefa);
-  --label-large-font-family-style: Medium;
-  --label-large-font-weight: 500px;
-  --label-large-font-size: 0.9rem;
-  --label-large-line-height: 20px;
-  --label-large-letter-spacing: 0.1px;
-  /* label - medium */
-  --label-medium-font-family-name: var(--josefa);
-  --label-medium-font-family-style: Medium;
-  --label-medium-font-weight: 500px;
-  --label-medium-font-size: 0.8rem;
-  --label-medium-line-height: 16px;
-  --label-medium-letter-spacing: 0.5px;
-  /* label - small */
-  --label-small-font-family-name: var(--josefa);
-  --label-small-font-family-style: Medium;
-  --label-small-font-weight: 500px;
-  --label-small-font-size: 0.7rem;
-  --label-small-line-height: 16px;
-  --label-small-letter-spacing: 0.5px;
-  /* title - large */
-  --title-large-font-family-name: Roboto;
-  --title-large-font-family-style: Medium;
-  --title-large-font-weight: 700px;
-  --title-large-font-size: 1rem;
-  --title-large-line-height: 28px;
-  --title-large-letter-spacing: 0px;
-  /* title - medium */
-  --title-medium-font-family-name: Roboto;
-  --title-medium-font-family-style: Medium;
-  --title-medium-font-weight: 700px;
-  --title-medium-font-size: 0.9rem;
-  --title-medium-line-height: 24px;
-  --title-medium-letter-spacing: 0.15px;
-  /* title - small */
-  --title-small-font-family-name: Roboto;
-  --title-small-font-family-style: Medium;
-  --title-small-font-weight: 700px;
-  --title-small-font-size: 0.8rem;
-  --title-small-line-height: 20px;
-  --title-small-letter-spacing: 0.1px;
-}
+
 .displayLarge {
-  font-family: var(--font-poiret);
+   font-family: var(--display-large-font-family);
   font-style: var(--display-large-font-family-style);
   font-weight: var(--display-large-font-weight);
   font-size: var(--display-large-font-size);
@@ -116,7 +11,7 @@
 }
 
 .displayMedium {
-  font-family: var(--font-poiret);
+  font-family: var(--display-medium-font-family);
   font-style: var(--display-medium-font-family-style);
   font-weight: var(--display-medium-font-weight);
   font-size: var(--display-medium-font-size);
@@ -127,7 +22,7 @@
 }
 
 .displaySmall {
-  font-family: var(--font-poiret);
+ font-family: var(--display-small-font-family);
   font-style: var(--display-small-font-family-style);
   font-weight: var(--display-small-font-weight);
   font-size: var(--display-small-font-size);
@@ -138,7 +33,7 @@
 }
 
 .headlineLarge {
-  font-family: var(--font-poiret);
+   font-family: var(--headline-large-font-family);
   font-style: var(--headline-large-font-family-style);
   font-weight: var(--headline-large-font-weight);
   font-size: var(--headline-large-font-size);

@@ -13,7 +13,6 @@
   border: none;
   box-sizing: border-box;
   padding: 2vmin;
-  border-radius: 2vmin;
   flex: 1;
   display: flex;
   flex-flow: column nowrap;
@@ -159,3 +158,5 @@
   background-color: var(--tertiary-container);
   color: var(--on-tertiary-container);
 }
+
+/*# sourceMappingURL=buttons.module.css.map */

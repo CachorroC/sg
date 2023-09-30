@@ -8,6 +8,7 @@ import Script from 'next/script';
 import { ModalProvider } from './context/modal-context';
 import Header from '#@/components/layout/header';
 import { SearchProvider } from './context/search-context';
+import layout from '#@/styles/layout.module.css';
 
 
 export const metadata: Metadata = {
@@ -27,10 +28,12 @@ export default function RootLayout(
       <body className={ `${ poiret.variable } ${ raleway.variable } ${ inter.variable } ${ roboto.variable } ${ josefina.variable } [ color-scheme: light dark ]` }>
         <ModalProvider>
           <SearchProvider>
-            <Header >
+            <div className={ layout.container }>
+              <Header >
 
-            </Header>
-            { children }
+              </Header>
+              { children }
+            </div>
           </SearchProvider>
         </ModalProvider>
       </body>

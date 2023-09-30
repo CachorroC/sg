@@ -74,7 +74,6 @@ $MaxSW: 480px; //maximum sma width
   justify-content: space-between;
   align-items: stretch;
   grid-area: header;
-  border-radius: 0 0 2vmin 2vmin;
   gap: 1vmin;
   padding: 1vmin;
   box-shadow: var(--dp6);
@@ -86,7 +85,6 @@ $MaxSW: 480px; //maximum sma width
   flex-direction: column;
   justify-content: space-between;
   align-items: stretch;
-  border-radius: 2vmin;
   padding: 2vmin;
   align-content: stretch;
   grid-area: right;
@@ -102,7 +100,6 @@ $MaxSW: 480px; //maximum sma width
 .top {
   display: flex;
   flex-flow: row wrap;
-  border-radius: 2vmin;
   background-color: var(--surface-dim);
   color: var(--on-surface);
   padding: 2vmin;
@@ -130,7 +127,6 @@ $MaxSW: 480px; //maximum sma width
 .left {
   background-color: var(--surface);
   grid-area: left;
-  border-radius: 2vmin;
   display: grid;
   padding: 2vmin;
   gap: 2vmin;
@@ -170,7 +166,6 @@ $MaxSW: 480px; //maximum sma width
   justify-content: space-evenly;
   align-content: stretch;
   align-items: center;
-  border-radius: 2vmin;
   box-shadow: var(--dp2);
 
   &:hover,
@@ -192,7 +187,6 @@ $MaxSW: 480px; //maximum sma width
   /* Light grey */
   border-top: 10px solid var(--tertiary);
   /* Blue */
-  border-radius: 50%;
   width: 50px;
   height: 50px;
   box-sizing: border-box;

@@ -169,208 +169,262 @@
   --md-ref-palette-error99: #fffbff;
   --md-ref-palette-error100: #ffffff;
   /* light */
-  --md-sys-color-primary-light: #aa227f;
-  --md-sys-color-on-primary-light: #ffffff;
-  --md-sys-color-primary-container-light: #ffd8ea;
-  --md-sys-color-on-primary-container-light: #3c002a;
-  --md-sys-color-primary-fixed-light: #ffd8ea;
-  --md-sys-color-on-primary-fixed-light: #3c002a;
-  --md-sys-color-primary-fixed-dim-light: #ffaed9;
-  --md-sys-color-on-primary-fixed-variant-light: #890064;
-  --md-sys-color-secondary-light: #715764;
-  --md-sys-color-on-secondary-light: #ffffff;
-  --md-sys-color-secondary-container-light: #fcd9e9;
-  --md-sys-color-on-secondary-container-light: #291520;
-  --md-sys-color-secondary-fixed-light: #fcd9e9;
-  --md-sys-color-on-secondary-fixed-light: #291520;
-  --md-sys-color-secondary-fixed-dim-light: #dfbecc;
-  --md-sys-color-on-secondary-fixed-variant-light: #58404c;
-  --md-sys-color-tertiary-light: #80543c;
-  --md-sys-color-on-tertiary-light: #ffffff;
-  --md-sys-color-tertiary-container-light: #ffdbc9;
-  --md-sys-color-on-tertiary-container-light: #311302;
-  --md-sys-color-tertiary-fixed-light: #ffdbc9;
-  --md-sys-color-on-tertiary-fixed-light: #311302;
-  --md-sys-color-tertiary-fixed-dim-light: #f3ba9c;
-  --md-sys-color-on-tertiary-fixed-variant-light: #643d26;
-  --md-sys-color-error-light: #ba1a1a;
-  --md-sys-color-error-container-light: #ffdad6;
-  --md-sys-color-on-error-light: #ffffff;
-  --md-sys-color-on-error-container-light: #410002;
-  --md-sys-color-background-light: #fffbff;
-  --md-sys-color-on-background-light: #1f1a1c;
-  --md-sys-color-outline-light: #827379;
-  --md-sys-color-inverse-on-surface-light: #f9eef1;
-  --md-sys-color-inverse-surface-light: #352f31;
-  --md-sys-color-inverse-primary-light: #ffaed9;
-  --md-sys-color-shadow-light: #000000;
-  --md-sys-color-surface-tint-light: #aa227f;
-  --md-sys-color-outline-variant-light: #d4c2c8;
-  --md-sys-color-scrim-light: #000000;
-  --md-sys-color-surface-light: #fff8f8;
-  --md-sys-color-on-surface-light: #1f1a1c;
-  --md-sys-color-surface-variant-light: #f0dee4;
-  --md-sys-color-on-surface-variant-light: #504349;
-  --md-sys-color-surface-container-highest-light: #ebe0e2;
-  --md-sys-color-surface-container-high-light: #f0e5e8;
-  --md-sys-color-surface-container-light: #f6ebee;
-  --md-sys-color-surface-container-low-light: #fcf1f4;
-  --md-sys-color-surface-container-lowest-light: #ffffff;
-  --md-sys-color-surface-dim-light: #e2d7da;
-  --md-sys-color-surface-bright-light: #fff8f8;
+  --primary-light: #aa227f;
+  --on-primary-light: #ffffff;
+  --primary-container-light: #ffd8ea;
+  --on-primary-container-light: #3c002a;
+  --primary-fixed-light: #ffd8ea;
+  --on-primary-fixed-light: #3c002a;
+  --primary-fixed-dim-light: #ffaed9;
+  --on-primary-fixed-variant-light: #890064;
+  --secondary-light: #715764;
+  --on-secondary-light: #ffffff;
+  --secondary-container-light: #fcd9e9;
+  --on-secondary-container-light: #291520;
+  --secondary-fixed-light: #fcd9e9;
+  --on-secondary-fixed-light: #291520;
+  --secondary-fixed-dim-light: #dfbecc;
+  --on-secondary-fixed-variant-light: #58404c;
+  --tertiary-light: #80543c;
+  --on-tertiary-light: #ffffff;
+  --tertiary-container-light: #ffdbc9;
+  --on-tertiary-container-light: #311302;
+  --tertiary-fixed-light: #ffdbc9;
+  --on-tertiary-fixed-light: #311302;
+  --tertiary-fixed-dim-light: #f3ba9c;
+  --on-tertiary-fixed-variant-light: #643d26;
+  --error-light: #ba1a1a;
+  --error-container-light: #ffdad6;
+  --on-error-light: #ffffff;
+  --on-error-container-light: #410002;
+  --background-light: #fffbff;
+  --on-background-light: #1f1a1c;
+  --outline-light: #827379;
+  --inverse-on-surface-light: #f9eef1;
+  --inverse-surface-light: #352f31;
+  --inverse-primary-light: #ffaed9;
+  --shadow-light: #000000;
+  --surface-tint-light: #aa227f;
+  --outline-variant-light: #d4c2c8;
+  --scrim-light: #000000;
+  --surface-light: #fff8f8;
+  --on-surface-light: #1f1a1c;
+  --surface-variant-light: #f0dee4;
+  --on-surface-variant-light: #504349;
+  --surface-container-highest-light: #ebe0e2;
+  --surface-container-high-light: #f0e5e8;
+  --surface-container-light: #f6ebee;
+  --surface-container-low-light: #fcf1f4;
+  --surface-container-lowest-light: #ffffff;
+  --surface-dim-light: #e2d7da;
+  --surface-bright-light: #fff8f8;
   /* dark */
-  --md-sys-color-primary-dark: #ffaed9;
-  --md-sys-color-on-primary-dark: #610046;
-  --md-sys-color-primary-container-dark: #890064;
-  --md-sys-color-on-primary-container-dark: #ffd8ea;
-  --md-sys-color-primary-fixed-dark: #ffd8ea;
-  --md-sys-color-on-primary-fixed-dark: #3c002a;
-  --md-sys-color-primary-fixed-dim-dark: #ffaed9;
-  --md-sys-color-on-primary-fixed-variant-dark: #890064;
-  --md-sys-color-secondary-dark: #dfbecc;
-  --md-sys-color-on-secondary-dark: #402a35;
-  --md-sys-color-secondary-container-dark: #58404c;
-  --md-sys-color-on-secondary-container-dark: #fcd9e9;
-  --md-sys-color-secondary-fixed-dark: #fcd9e9;
-  --md-sys-color-on-secondary-fixed-dark: #291520;
-  --md-sys-color-secondary-fixed-dim-dark: #dfbecc;
-  --md-sys-color-on-secondary-fixed-variant-dark: #58404c;
-  --md-sys-color-tertiary-dark: #f3ba9c;
-  --md-sys-color-on-tertiary-dark: #4a2712;
-  --md-sys-color-tertiary-container-dark: #643d26;
-  --md-sys-color-on-tertiary-container-dark: #ffdbc9;
-  --md-sys-color-tertiary-fixed-dark: #ffdbc9;
-  --md-sys-color-on-tertiary-fixed-dark: #311302;
-  --md-sys-color-tertiary-fixed-dim-dark: #f3ba9c;
-  --md-sys-color-on-tertiary-fixed-variant-dark: #643d26;
-  --md-sys-color-error-dark: #ffb4ab;
-  --md-sys-color-error-container-dark: #93000a;
-  --md-sys-color-on-error-dark: #690005;
-  --md-sys-color-on-error-container-dark: #ffdad6;
-  --md-sys-color-background-dark: #1f1a1c;
-  --md-sys-color-on-background-dark: #ebe0e2;
-  --md-sys-color-outline-dark: #9c8d93;
-  --md-sys-color-inverse-on-surface-dark: #1f1a1c;
-  --md-sys-color-inverse-surface-dark: #ebe0e2;
-  --md-sys-color-inverse-primary-dark: #aa227f;
-  --md-sys-color-shadow-dark: #000000;
-  --md-sys-color-surface-tint-dark: #ffaed9;
-  --md-sys-color-outline-variant-dark: #504349;
-  --md-sys-color-scrim-dark: #000000;
-  --md-sys-color-surface-dark: #171214;
-  --md-sys-color-on-surface-dark: #cec4c7;
-  --md-sys-color-surface-variant-dark: #504349;
-  --md-sys-color-on-surface-variant-dark: #d4c2c8;
-  --md-sys-color-surface-container-highest-dark: #393335;
-  --md-sys-color-surface-container-high-dark: #2e282b;
-  --md-sys-color-surface-container-dark: #231e20;
-  --md-sys-color-surface-container-low-dark: #1f1a1c;
-  --md-sys-color-surface-container-lowest-dark: #110d0f;
-  --md-sys-color-surface-dim-dark: #171214;
-  --md-sys-color-surface-bright-dark: #3e383a;
+  --primary-dark: #ffaed9;
+  --on-primary-dark: #610046;
+  --primary-container-dark: #890064;
+  --on-primary-container-dark: #ffd8ea;
+  --primary-fixed-dark: #ffd8ea;
+  --on-primary-fixed-dark: #3c002a;
+  --primary-fixed-dim-dark: #ffaed9;
+  --on-primary-fixed-variant-dark: #890064;
+  --secondary-dark: #dfbecc;
+  --on-secondary-dark: #402a35;
+  --secondary-container-dark: #58404c;
+  --on-secondary-container-dark: #fcd9e9;
+  --secondary-fixed-dark: #fcd9e9;
+  --on-secondary-fixed-dark: #291520;
+  --secondary-fixed-dim-dark: #dfbecc;
+  --on-secondary-fixed-variant-dark: #58404c;
+  --tertiary-dark: #f3ba9c;
+  --on-tertiary-dark: #4a2712;
+  --tertiary-container-dark: #643d26;
+  --on-tertiary-container-dark: #ffdbc9;
+  --tertiary-fixed-dark: #ffdbc9;
+  --on-tertiary-fixed-dark: #311302;
+  --tertiary-fixed-dim-dark: #f3ba9c;
+  --on-tertiary-fixed-variant-dark: #643d26;
+  --error-dark: #ffb4ab;
+  --error-container-dark: #93000a;
+  --on-error-dark: #690005;
+  --on-error-container-dark: #ffdad6;
+  --background-dark: #1f1a1c;
+  --on-background-dark: #ebe0e2;
+  --outline-dark: #9c8d93;
+  --inverse-on-surface-dark: #1f1a1c;
+  --inverse-surface-dark: #ebe0e2;
+  --inverse-primary-dark: #aa227f;
+  --shadow-dark: #000000;
+  --surface-tint-dark: #ffaed9;
+  --outline-variant-dark: #504349;
+  --scrim-dark: #000000;
+  --surface-dark: #171214;
+  --on-surface-dark: #cec4c7;
+  --surface-variant-dark: #504349;
+  --on-surface-variant-dark: #d4c2c8;
+  --surface-container-highest-dark: #393335;
+  --surface-container-high-dark: #2e282b;
+  --surface-container-dark: #231e20;
+  --surface-container-low-dark: #1f1a1c;
+  --surface-container-lowest-dark: #110d0f;
+  --surface-dim-dark: #171214;
+  --surface-bright-dark: #3e383a;
   /* display - large */
-  --md-sys-typescale-display-large-font-family-name: Roboto;
-  --md-sys-typescale-display-large-font-family-style: Regular;
-  --md-sys-typescale-display-large-font-weight: 400px;
-  --md-sys-typescale-display-large-font-size: 57px;
-  --md-sys-typescale-display-large-line-height: 64px;
-  --md-sys-typescale-display-large-letter-spacing: -0.25px;
+  --display-large-font-family-name: var(--font-poiret);
+  --display-large-font-family-style: Regular;
+  --display-large-font-weight: 400px;
+  --display-large-font-size: 57px;
+  --display-large-line-height: 64px;
+  --display-large-letter-spacing: -0.25px;
   /* display - medium */
-  --md-sys-typescale-display-medium-font-family-name: Roboto;
-  --md-sys-typescale-display-medium-font-family-style: Regular;
-  --md-sys-typescale-display-medium-font-weight: 400px;
-  --md-sys-typescale-display-medium-font-size: 45px;
-  --md-sys-typescale-display-medium-line-height: 52px;
-  --md-sys-typescale-display-medium-letter-spacing: 0px;
+  --display-medium-font-family-name: var(--font-poiret);
+  --display-medium-font-family-style: Regular;
+  --display-medium-font-weight: 400px;
+  --display-medium-font-size: 45px;
+  --display-medium-line-height: 52px;
+  --display-medium-letter-spacing: 0px;
   /* display - small */
-  --md-sys-typescale-display-small-font-family-name: Roboto;
-  --md-sys-typescale-display-small-font-family-style: Regular;
-  --md-sys-typescale-display-small-font-weight: 400px;
-  --md-sys-typescale-display-small-font-size: 36px;
-  --md-sys-typescale-display-small-line-height: 44px;
-  --md-sys-typescale-display-small-letter-spacing: 0px;
+  --display-small-font-family-name: var(--font-poiret);
+  --display-small-font-family-style: Regular;
+  --display-small-font-weight: 400px;
+  --display-small-font-size: 36px;
+  --display-small-line-height: 44px;
+  --display-small-letter-spacing: 0px;
   /* headline - large */
-  --md-sys-typescale-headline-large-font-family-name: Roboto;
-  --md-sys-typescale-headline-large-font-family-style: Regular;
-  --md-sys-typescale-headline-large-font-weight: 400px;
-  --md-sys-typescale-headline-large-font-size: 32px;
-  --md-sys-typescale-headline-large-line-height: 40px;
-  --md-sys-typescale-headline-large-letter-spacing: 0px;
+  --headline-large-font-family-name: var(--raleway);
+  --headline-large-font-family-style: Regular;
+  --headline-large-font-weight: 400px;
+  --headline-large-font-size: 32px;
+  --headline-large-line-height: 40px;
+  --headline-large-letter-spacing: 0px;
   /* headline - medium */
-  --md-sys-typescale-headline-medium-font-family-name: Roboto;
-  --md-sys-typescale-headline-medium-font-family-style: Regular;
-  --md-sys-typescale-headline-medium-font-weight: 400px;
-  --md-sys-typescale-headline-medium-font-size: 28px;
-  --md-sys-typescale-headline-medium-line-height: 36px;
-  --md-sys-typescale-headline-medium-letter-spacing: 0px;
+  --headline-medium-font-family-name: var(--raleway);
+  --headline-medium-font-family-style: Regular;
+  --headline-medium-font-weight: 400px;
+  --headline-medium-font-size: 28px;
+  --headline-medium-line-height: 36px;
+  --headline-medium-letter-spacing: 0px;
   /* headline - small */
-  --md-sys-typescale-headline-small-font-family-name: Roboto;
-  --md-sys-typescale-headline-small-font-family-style: Regular;
-  --md-sys-typescale-headline-small-font-weight: 400px;
-  --md-sys-typescale-headline-small-font-size: 24px;
-  --md-sys-typescale-headline-small-line-height: 32px;
-  --md-sys-typescale-headline-small-letter-spacing: 0px;
+  --headline-small-font-family-name: var(--raleway);
+  --headline-small-font-family-style: Regular;
+  --headline-small-font-weight: 400px;
+  --headline-small-font-size: 24px;
+  --headline-small-line-height: 32px;
+  --headline-small-letter-spacing: 0px;
   /* body - large */
-  --md-sys-typescale-body-large-font-family-name: Roboto;
-  --md-sys-typescale-body-large-font-family-style: Regular;
-  --md-sys-typescale-body-large-font-weight: 400px;
-  --md-sys-typescale-body-large-font-size: 16px;
-  --md-sys-typescale-body-large-line-height: 24px;
-  --md-sys-typescale-body-large-letter-spacing: 0.50px;
+  --body-large-font-family-name: var(--inter);
+  --body-large-font-family-style: Regular;
+  --body-large-font-weight: 400px;
+  --body-large-font-size: 16px;
+  --body-large-line-height: 24px;
+  --body-large-letter-spacing: 0.5px;
   /* body - medium */
-  --md-sys-typescale-body-medium-font-family-name: Roboto;
-  --md-sys-typescale-body-medium-font-family-style: Regular;
-  --md-sys-typescale-body-medium-font-weight: 400px;
-  --md-sys-typescale-body-medium-font-size: 14px;
-  --md-sys-typescale-body-medium-line-height: 20px;
-  --md-sys-typescale-body-medium-letter-spacing: 0.25px;
+  --body-medium-font-family-name: var(--inter);
+  --body-medium-font-family-style: Regular;
+  --body-medium-font-weight: 400px;
+  --body-medium-font-size: 14px;
+  --body-medium-line-height: 20px;
+  --body-medium-letter-spacing: 0.25px;
   /* body - small */
-  --md-sys-typescale-body-small-font-family-name: Roboto;
-  --md-sys-typescale-body-small-font-family-style: Regular;
-  --md-sys-typescale-body-small-font-weight: 400px;
-  --md-sys-typescale-body-small-font-size: 12px;
-  --md-sys-typescale-body-small-line-height: 16px;
-  --md-sys-typescale-body-small-letter-spacing: 0.40px;
+  --body-small-font-family-name: var(--inter);
+  --body-small-font-family-style: Regular;
+  --body-small-font-weight: 400px;
+  --body-small-font-size: 12px;
+  --body-small-line-height: 16px;
+  --body-small-letter-spacing: 0.4px;
   /* label - large */
-  --md-sys-typescale-label-large-font-family-name: Roboto;
-  --md-sys-typescale-label-large-font-family-style: Medium;
-  --md-sys-typescale-label-large-font-weight: 500px;
-  --md-sys-typescale-label-large-font-size: 14px;
-  --md-sys-typescale-label-large-line-height: 20px;
-  --md-sys-typescale-label-large-letter-spacing: 0.10px;
+  --label-large-font-family-name: var(--josefa);
+  --label-large-font-family-style: Medium;
+  --label-large-font-weight: 500px;
+  --label-large-font-size: 14px;
+  --label-large-line-height: 20px;
+  --label-large-letter-spacing: 0.1px;
   /* label - medium */
-  --md-sys-typescale-label-medium-font-family-name: Roboto;
-  --md-sys-typescale-label-medium-font-family-style: Medium;
-  --md-sys-typescale-label-medium-font-weight: 500px;
-  --md-sys-typescale-label-medium-font-size: 12px;
-  --md-sys-typescale-label-medium-line-height: 16px;
-  --md-sys-typescale-label-medium-letter-spacing: 0.50px;
+  --label-medium-font-family-name: var(--josefa);
+  --label-medium-font-family-style: Medium;
+  --label-medium-font-weight: 500px;
+  --label-medium-font-size: 12px;
+  --label-medium-line-height: 16px;
+  --label-medium-letter-spacing: 0.5px;
   /* label - small */
-  --md-sys-typescale-label-small-font-family-name: Roboto;
-  --md-sys-typescale-label-small-font-family-style: Medium;
-  --md-sys-typescale-label-small-font-weight: 500px;
-  --md-sys-typescale-label-small-font-size: 11px;
-  --md-sys-typescale-label-small-line-height: 16px;
-  --md-sys-typescale-label-small-letter-spacing: 0.50px;
+  --label-small-font-family-name: var(--josefa);
+  --label-small-font-family-style: Medium;
+  --label-small-font-weight: 500px;
+  --label-small-font-size: 11px;
+  --label-small-line-height: 16px;
+  --label-small-letter-spacing: 0.5px;
   /* title - large */
-  --md-sys-typescale-title-large-font-family-name: Roboto;
-  --md-sys-typescale-title-large-font-family-style: Regular;
-  --md-sys-typescale-title-large-font-weight: 400px;
-  --md-sys-typescale-title-large-font-size: 22px;
-  --md-sys-typescale-title-large-line-height: 28px;
-  --md-sys-typescale-title-large-letter-spacing: 0px;
+  --title-large-font-family-name: var(--roboto);
+  --title-large-font-family-style: Medium;
+  --title-large-font-weight: 700px;
+  --title-large-font-size: 22px;
+  --title-large-line-height: 28px;
+  --title-large-letter-spacing: 0px;
   /* title - medium */
-  --md-sys-typescale-title-medium-font-family-name: Roboto;
-  --md-sys-typescale-title-medium-font-family-style: Medium;
-  --md-sys-typescale-title-medium-font-weight: 500px;
-  --md-sys-typescale-title-medium-font-size: 16px;
-  --md-sys-typescale-title-medium-line-height: 24px;
-  --md-sys-typescale-title-medium-letter-spacing: 0.15px;
+  --title-medium-font-family-name: var(--roboto);
+  --title-medium-font-family-style: Medium;
+  --title-medium-font-weight: 700px;
+  --title-medium-font-size: 16px;
+  --title-medium-line-height: 24px;
+  --title-medium-letter-spacing: 0.15px;
   /* title - small */
-  --md-sys-typescale-title-small-font-family-name: Roboto;
-  --md-sys-typescale-title-small-font-family-style: Medium;
-  --md-sys-typescale-title-small-font-weight: 500px;
-  --md-sys-typescale-title-small-font-size: 14px;
-  --md-sys-typescale-title-small-line-height: 20px;
-  --md-sys-typescale-title-small-letter-spacing: 0.10px;
+  --title-small-font-family-name: var(--roboto);
+  --title-small-font-family-style: Medium;
+  --title-small-font-weight: 700px;
+  --title-small-font-size: 14px;
+  --title-small-line-height: 20px;
+  --title-small-letter-spacing: 0.1px;
+
+
+  --dp0: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  --dp1: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  --dp2: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  --dp3: 0px 3px 3px -2px rgba(0, 0, 0, 0.2),
+    0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+  --dp4: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  --dp5: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+  --dp6: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+  --dp7: 0px 4px 5px -2px rgba(0, 0, 0, 0.2),
+    0px 7px 10px 1px rgba(0, 0, 0, 0.14), 0px 2px 16px 1px rgba(0, 0, 0, 0.12);
+  --dp8: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
+    0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+  --dp9: 0px 5px 6px -3px rgba(0, 0, 0, 0.2),
+    0px 9px 12px 1px rgba(0, 0, 0, 0.14), 0px 3px 16px 2px rgba(0, 0, 0, 0.12);
+  --dp10: 0px 6px 6px -3px rgba(0, 0, 0, 0.2),
+    0px 10px 14px 1px rgba(0, 0, 0, 0.14), 0px 4px 18px 3px rgba(0, 0, 0, 0.12);
+  --dp11: 0px 6px 7px -4px rgba(0, 0, 0, 0.2),
+    0px 11px 15px 1px rgba(0, 0, 0, 0.14), 0px 4px 20px 3px rgba(0, 0, 0, 0.12);
+  --dp12: 0px 7px 8px -4px rgba(0, 0, 0, 0.2),
+    0px 12px 17px 2px rgba(0, 0, 0, 0.14), 0px 5px 22px 4px rgba(0, 0, 0, 0.12);
+  --dp13: 0px 7px 8px -4px rgba(0, 0, 0, 0.2),
+    0px 13px 19px 2px rgba(0, 0, 0, 0.14), 0px 5px 24px 4px rgba(0, 0, 0, 0.12);
+  --dp14: 0px 7px 9px -4px rgba(0, 0, 0, 0.2),
+    0px 14px 21px 2px rgba(0, 0, 0, 0.14), 0px 5px 26px 4px rgba(0, 0, 0, 0.12);
+  --dp15: 0px 8px 9px -5px rgba(0, 0, 0, 0.2),
+    0px 15px 22px 2px rgba(0, 0, 0, 0.14), 0px 6px 28px 5px rgba(0, 0, 0, 0.12);
+  --dp16: 0px 8px 10px -5px rgba(0, 0, 0, 0.2),
+    0px 16px 24px 2px rgba(0, 0, 0, 0.14), 0px 6px 30px 5px rgba(0, 0, 0, 0.12);
+  --dp17: 0px 8px 11px -5px rgba(0, 0, 0, 0.2),
+    0px 17px 26px 2px rgba(0, 0, 0, 0.14), 0px 6px 32px 5px rgba(0, 0, 0, 0.12);
+  --dp18: 0px 9px 11px -5px rgba(0, 0, 0, 0.2),
+    0px 18px 28px 2px rgba(0, 0, 0, 0.14), 0px 7px 34px 6px rgba(0, 0, 0, 0.12);
+  --dp19: 0px 9px 12px -6px rgba(0, 0, 0, 0.2),
+    0px 19px 29px 2px rgba(0, 0, 0, 0.14), 0px 7px 36px 6px rgba(0, 0, 0, 0.12);
+  --dp20: 0px 10px 13px -6px rgba(0, 0, 0, 0.2),
+    0px 20px 31px 3px rgba(0, 0, 0, 0.14), 0px 8px 38px 7px rgba(0, 0, 0, 0.12);
+  --dp21: 0px 10px 13px -6px rgba(0, 0, 0, 0.2),
+    0px 21px 33px 3px rgba(0, 0, 0, 0.14), 0px 8px 40px 7px rgba(0, 0, 0, 0.12);
+  --dp22: 0px 10px 14px -6px rgba(0, 0, 0, 0.2),
+    0px 22px 35px 3px rgba(0, 0, 0, 0.14), 0px 8px 42px 7px rgba(0, 0, 0, 0.12);
+  --dp23: 0px 11px 14px -7px rgba(0, 0, 0, 0.2),
+    0px 23px 36px 3px rgba(0, 0, 0, 0.14), 0px 9px 44px 8px rgba(0, 0, 0, 0.12);
+  --dp24: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+    0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+  --minFontSize: 16px;
+  --maxFontSize: 22px;
+  --scaler: 6vw;
 }

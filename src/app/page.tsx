@@ -1,8 +1,9 @@
+import { left } from '#@/styles/layout.module.css';
 import Image from 'next/image';
 
 export default function Home() {
   return (
-    <main >
+    <main className={left}>
       <div >
         <p>
           Get started by editing&nbsp;

@@ -11,6 +11,7 @@ import typography from '#@/styles/fonts/typography.module.scss';
 import Loader from './loader';
 import InputSearchBar from './search/InputSearchBar';
 import ModalDialog, { ModalDialogButton } from '../Modal';
+import { useMediaQuery } from '#@/app/hooks/match-media';
 
 export default function Header (
   {
@@ -19,6 +20,10 @@ export default function Header (
 ) {
   const router = useRouter();
   let modalSegment;
+
+  const isMobile = useMediaQuery(
+    '(min-width: 768px)'
+  );
 
   const [
     isNavOpen,
@@ -126,7 +131,9 @@ export default function Header (
           chevron_right
         </span>
         <p className={ styles.ButtonTextHelper }>entrar</p>
-      </button><button
+      </button>
+
+      {!isMobile && ( <button
         type="button"
         className={ styles.buttonDrawerMenu }
         onClick={ () => {
@@ -147,7 +154,7 @@ export default function Header (
             ? 'close'
             : 'menu' }
         </span>
-      </button>
+      </button> )}
       { modalSegment}
     </div>
 

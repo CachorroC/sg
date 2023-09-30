@@ -50,7 +50,6 @@
   padding: 2vmin;
   box-shadow: var(--dp2);
   background-color: var(--surface-container-low);
-  border-radius: 2vmin;
   overflow: auto;
   & > * {
     width: calc(50% - 2vmin);
@@ -58,7 +57,6 @@
 }
 .button {
   border: none;
-  border-radius: 2vmin;
 
   display: flex;
   flex-flow: column nowrap;
@@ -143,7 +141,6 @@
   border: 2px solid var(--outline-variant);
   color: var(--on-surface);
   grid-area: inputSearchBar;
-  border-radius: 10cqmin;
   text-align: center;
   flex: 4 0 auto;
 
