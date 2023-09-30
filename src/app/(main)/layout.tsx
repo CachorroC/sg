@@ -1,10 +1,14 @@
 import { ReactNode } from 'react';
 
-export default function Layout ( { children, top }: { children: ReactNode ; top: ReactNode} )
-{
+export default function Layout (
+  {
+    children, top 
+  }: { children: ReactNode ; top: ReactNode} 
+) {
   return (
-    <div>
+    <>
+      {top}
       {children}
-    </div>
-  )
+    </>
+  );
 }
